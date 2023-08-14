@@ -94,7 +94,7 @@ class Config:
                     "https://github.com/acheong08/EdgeGPT#getting-authentication-required"
                 )
         elif not self.openai_key:
-            raise Exception("Using GPT api needs openai API key, please google how to")
+            ""#raise Exception("Using GPT api needs openai API key, please google how to")
         if (
             self.api_base
             and self.api_base.endswith(("openai.azure.com", "openai.azure.com/"))
